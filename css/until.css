@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*-------====== header navabar list ----------*/
+.imges{
+    height: auto;
+    width: 100%;
+    position: fixed;
+}
+/*-------====== div ----------*/
+.div{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/*-------====== header navabar list ----------*/
+.list-style{
+    list-style: none;
+}
+/*-------====== header navabar a ----------*/
+.link-style{
+    text-decoration: none;
+}
+/*-------====== header navabar a color ----------*/
+.link-color{
+  color: rgb(221, 190, 149);
+  transition: all 1.2s ease;
+  font-size: 20px;
+}
+/*-------====== header navabar a color hover ----------*/
+.link-color:hover{
+    color: rgb(104, 78, 43);
+    cursor: pointer;
+    transition: all 1.2s ease;
+    font-size: 20px;
+    
+}
+/*-------====== header navabar display ----------*/
+.display{
+    display: flex;
+}
+.main{
+    margin: 500px 0px 0px 0px;
+}
+.opcity{
+    opacity: 0;
+    margin: 28px 0px 0px 73px;
+    transition: all 1.1s ease;
+}
+.opcit{
+    opacity: 0;
+    transition: all 1.1s ease;
+}
+.opc{
+    opacity: 100%;
+    transition: all 1.1s ease-out;
+}

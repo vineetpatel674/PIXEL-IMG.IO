@@ -1,0 +1,679 @@
+/*-----======= google font css =====---------*/
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@300&family=Dancing+Script&family=Great+Vibes&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Lobster&display=swap');
+
+body {
+    background: linear-gradient(90deg, black, blue);
+    background-color: rgb(16, 16, 16);
+}
+
+/*-----======= header img =====---------*/
+.header img {
+    height: 50px;
+}
+
+/*-----======= header =====---------*/
+.header {
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    z-index: 20;
+}
+
+/*-----======= icon style =====---------*/
+.icon-style {
+    margin: 20px 0px 0px 40px;
+}
+
+/*-----======= ul style =====---------*/
+.ul-style {
+    margin: 28px 0px 0px 240px;
+}
+
+/*-----======= list margin =====---------*/
+.list-margin {
+    margin: 0px 0px 0px 70px;
+}
+
+/*-----======= login button =====---------*/
+.login-button {
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 8px;
+    transition: all 1.2s ease-in;
+    background-color: rgb(154, 132, 102);
+    border: 1px;
+    margin: 20px 0px 0px 150px;
+}
+
+/*-----======= login button hover =====---------*/
+.login-button:hover {
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(104, 78, 43);
+    transition: all 1.2s ease-in;
+    border: 1px;
+    margin: 20px 0px 0px 150px;
+}
+
+/*-----======= photo-style =====---------*/
+.photo-style {
+    height: 420px;
+    width: 1263px;
+    background-color: rgb(104, 78, 43);
+    box-shadow: inset 0px 0px 114px 0px;
+}
+
+/*-----======= left h1 =====---------*/
+.left h1 {
+    font-size: 80px;
+    color: white;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Great Vibes', cursive;
+    /* font-family: 'Lobster', cursive; */
+    margin: 0px 0px 0px 85px;
+    padding: 26px 0px 0px 72px;
+    text-decoration: underline;
+    text-decoration-color: rgb(37, 28, 16);
+}
+
+/*-----======= right img2 =====---------*/
+.right .img2 {
+    height: 200px;
+    margin: 101px 0px 0px 426px;
+    border: 6px solid;
+    border-color: lightblue;
+    opacity: 0.9;
+    position: absolute;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+/*-----======= img3 =====---------*/
+.img3 {
+    height: 178px;
+    z-index: 3;
+    opacity: 0.9;
+    border: 6px solid;
+    border-color: lightblue;
+    width: 272px;
+    border-radius: 10px;
+    position: absolute;
+    margin: 222px 0px 0px 242px;
+}
+
+/*-----======= img3 =====---------*/
+.img1 {
+    height: 178px;
+    z-index: 3;
+    opacity: 0.9;
+    border: 6px solid;
+    border-color: lightblue;
+    width: 272px;
+    position: absolute;
+    border-radius: 10px;
+    margin: 10px 0px 0px 242px;
+}
+
+/*-----======= blur backgraungd =====---------*/
+.blur-back {
+    height: 100px;
+    padding: 20px;
+    color: black;
+}
+
+/*-----======= blur backgraungd =====---------*/
+.blur-backgraund {
+    height: 178px;
+    width: 272px;
+    z-index: 4;
+    backdrop-filter: blur(6px);
+    text-align: center;
+    margin: 119px 0px 0px 70px;
+    border: 1px solid white;
+    border-radius: 10px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/*-----======= blur backgraungd font =====---------*/
+.blur-backgraund h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+}
+
+/*-----======= left p =====---------*/
+.left {
+    width: 507px;
+}
+
+.left p {
+    margin: 28px 0px 0px 35px;
+    font-size: 26px;
+    color: rgb(48, 37, 23);
+    font-family: 'Anuphan', sans-serif;
+    border-left-width: 10px;
+
+}
+
+/*-----======= wedding-photo-style =====---------*/
+.wedding-photo-style {
+    height: 820px;
+    width: 1263px;
+    background-color: rgb(104, 78, 43);
+    margin: 300px 0px 0px 0px;
+    /* box-shadow: inset 0px 0px 114px 0px;*/
+}
+
+.wedding-photo-style h1 {
+    font-size: 80px;
+    color: white;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Great Vibes', cursive;
+    /* font-family: 'Lobster', cursive; */
+    margin: 0px 0px 0px 65px;
+    padding: 26px 0px 0px 62px;
+    text-decoration: underline;
+    text-decoration-color: rgb(37, 28, 16);
+}
+
+/*--======== hr ===========-------*/
+.hre {
+    color: black;
+    height: 2px;
+    width: 1061px;
+    margin: 0px 0px 0px 88px;
+}
+
+/*--======== wedding-img1 ===========-------*/
+.wedding-img1 {
+    height: 399px;
+    width: 309px;
+    margin: 250px 0px 0px 88px;
+}
+
+/*--======== wedding-img1 hover ===========-------*/
+.wedding-img1:hover {
+    cursor: pointer;
+    height: 404px;
+    margin: 250px 0px 0px 88px;
+}
+
+/*--======== wedding-img2 ===========-------*/
+.wedding-img2 {
+    position: absolute;
+    height: 259px;
+    width: 395px;
+    transition: all 1.2s ease;
+    margin: 9px 0px 0px 9px;
+}
+
+/*--======== wedding-img2 hover ===========-------*/
+.wedding-img2:hover {
+    position: absolute;
+    height: 292px;
+    width: 430px;
+    box-shadow: 0px 0px 60px 3px black;
+    margin: 9px 0px 0px 9px;
+    z-index: 2;
+    transition: all 1.2s ease;
+}
+
+/*--======== wedding-img3 ===========-------*/
+.wedding-img3 {
+    position: absolute;
+    height: 363px;
+    width: 402px;
+    margin: 280px 0px 0px 9px;
+    transition: all 1.2s ease;
+}
+
+/*--======== wedding-img3 hover ===========-------*/
+.wedding-img3:hover {
+    position: absolute;
+    height: 400px;
+    width: 430px;
+    margin: 280px 0px 0px 9px;
+    box-shadow: 0px 0px 60px 3px black;
+    z-index: 2;
+    transition: all 1.2s ease;
+}
+
+/*--======== wedding-img4 ===========-------*/
+.wedding-img4 {
+    position: absolute;
+    height: 269px;
+    width: 370px;
+    margin: 9px 0px 0px 422px;
+    transition: all 1.2s ease;
+}
+
+/*--======== wedding-img4 hover ===========-------*/
+.wedding-img4:hover {
+    position: absolute;
+    height: 300px;
+    width: 400px;
+    margin: 9px 0px 0px 422px;
+    box-shadow: 0px 0px 60px 3px black;
+    z-index: 2;
+    transition: all 1.2s ease;
+}
+
+/*--======== wedding-img4 ===========-------*/
+.wedding-img5 {
+    position: absolute;
+    height: 0px;
+    width: 349px;
+    font-size: 25px;
+    color: white;
+    margin: 309px 0px 0px 427px;
+    font-family: 'Great Vibes', cursive;
+}
+
+/*--======== ex-button ===========-------*/
+.ex-button {
+
+    height: 51px;
+    width: 157px;
+    background: linear-gradient(45deg, #08ecf4, #00000017);
+    border: 1px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 32px 0px 0px 0px;
+    transition: all 1.3s ease;
+}
+
+/*--======== ex-button hover ===========-------*/
+.ex-button:hover {
+    box-shadow: 0px 0px 88px 9px rgb(234, 139, 14);
+    height: 51px;
+    cursor: pointer;
+    color: white;
+    transition: all 1.3s ease;
+    width: 157px;
+    background: linear-gradient(45deg, #00000017, #08ecf4);
+    border: 1px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 32px 0px 0px 0px;
+}
+
+/*--======== birthday-photo-style ===========-------*/
+.birthday-photo-style {
+    height: 820px;
+    width: 1263px;
+    background-color: rgb(104, 78, 43);
+    margin: 0px 0px 0px 0px;
+    /* box-shadow: inset 0px 0px 114px 0px;*/
+}
+
+/*--======== birthday-photo-style h1 ===========-------*/
+.birthday-photo-style h1 {
+    font-size: 80px;
+    color: white;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Great Vibes', cursive;
+    /* font-family: 'Lobster', cursive; */
+    margin: 0px 0px 0px 85px;
+    padding: 26px 0px 0px 72px;
+    text-decoration: underline;
+    text-decoration-color: rgb(37, 28, 16);
+
+}
+
+/*--======== birthday-photo-style ===========-------*/
+.all-photo-style {
+    height: 820px;
+    width: 1263px;
+    background-color: rgb(104, 78, 43);
+    margin: 0px 0px 0px 0px;
+    /*box-shadow: inset 0px 0px 114px 0px;*/
+}
+
+/*--======== birthday-photo-style h1 ===========-------*/
+.all-photo-style h1 {
+    font-size: 80px;
+    color: white;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Great Vibes', cursive;
+    /* font-family: 'Lobster', cursive; */
+    margin: 0px 0px 0px 85px;
+    padding: 26px 0px 0px 72px;
+    text-decoration: underline;
+    text-decoration-color: rgb(37, 28, 16);
+
+}
+
+/*--======== info photo style ===========-------*/
+.info-photo-style {
+    height: 505px;
+    width: 1263px;
+    background-color: rgb(104, 78, 43);
+    margin: 161px 0px 0px 0px;
+    /* box-shadow: inset 0px 0px 114px 0px;*/
+}
+
+/*--======== info photo style img ===========-------*/
+.info-photo-style img {
+    height: 72px;
+    text-align: center;
+    margin: 33px 0px 0px 588px;
+    position: absolute;
+    z-index: 10;
+}
+
+/*--======== line 1 ===========-------*/
+.line1 {
+    background-color: rgb(136, 94, 40);
+    height: 94px;
+    width: 10px;
+    position: absolute;
+    border-radius: 5px;
+    z-index: 2;
+    margin: 104px 0px 0px 619px;
+}
+
+/*--======== line2 ===========-------*/
+.line2 {
+    background-color: rgb(136, 94, 40);
+    height: 6px;
+    width: 860px;
+    position: absolute;
+    border-radius: 5px;
+    z-index: 2;
+    margin: 195px 0px 0px 192px;
+}
+
+/*--======== point 1 ===========-------*/
+.point1 {
+    background-color: rgb(235 188 129);
+    height: 42px;
+    width: 42px;
+    position: absolute;
+    z-index: 10;
+    border-radius: 50%;
+    margin: 181px 0px 0px 178px;
+    cursor: pointer;
+}
+
+/*--======== point 2 ===========-------*/
+
+.point2 {
+    background-color:rgb(235 188 129);
+    height: 42px;
+    width: 42px;
+    position: absolute;
+    z-index: 10;
+    border-radius: 50%;
+    margin: 181px 0px 0px 472px;
+    cursor: pointer;
+}
+
+/*--======== point 3 ===========-------*/
+.point3 {
+    background-color: rgb(235 188 129);
+    height: 42px;
+    width: 42px;
+    position: absolute;
+    z-index: 10;
+    border-radius: 50%;
+    margin: 181px 0px 0px 765px;
+    cursor: pointer;
+}
+
+/*--======== point 4 ===========-------*/
+
+.point4 {
+    background-color:rgb(235 188 129);
+    height: 42px;
+    width: 42px;
+    position: absolute;
+    z-index: 10;
+    border-radius: 50%;
+    margin: 181px 0px 0px 1033px;
+    cursor: pointer;
+}
+
+/*--======== first hover after ===========-------*/
+.first::after {
+    content: "Photo Shoot  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia repudiandae temporibus, odio sit reiciendis facilis cupiditate id placeat debitis. Totam.";
+    position: absolute;
+    margin: 330px 960px 0px 100px;
+    text-align: center;
+    color: white;
+    transition: 3s;
+    cursor: pointer;
+
+
+}
+/*--======== first hover after ===========-------*/
+.first:hover::after {
+    content: "Photo Shoot  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia repudiandae temporibus, odio sit reiciendis facilis cupiditate id placeat debitis. Totam.";
+    position: absolute;
+    margin: 330px 960px 0px 100px;
+    text-align: center;
+    color: white;
+    transition: 3s;
+    cursor: pointer;
+    box-shadow: -8px 10px 20px 9px #00000078;
+
+
+}
+
+/*--======== second hover after ===========-------*/
+.second::after {
+    content: "Video Shoot  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia repudiandae temporibus, odio sit reiciendis facilis cupiditate id placeat debitis. Totam.";
+    position: absolute;
+    margin: 330px 640px 0px 380px;
+    text-align: center;
+    color: white;
+    transition: all 1.0s;
+    cursor: pointer;
+    box-shadow: -8px 10px 20px 9px #00000078;
+
+
+}
+
+/*--======== third hover after ===========-------*/
+.third::after {
+    content: "Photo Editing  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia repudiandae temporibus, odio sit reiciendis facilis cupiditate id placeat debitis. Totam.";
+    position: absolute;
+    margin: 330px 350px 0px 650px;
+    text-align: center;
+    color: white;
+    transition: all 1.0s;
+    cursor: pointer;
+
+
+}
+/*--======== third hover after ===========-------*/
+.third:hover::after {
+    content: "Photo Editing  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia repudiandae temporibus, odio sit reiciendis facilis cupiditate id placeat debitis. Totam.";
+    position: absolute;
+    margin: 330px 350px 0px 650px;
+    text-align: center;
+    color: white;
+    transition: all 1.0s;
+    cursor: pointer;
+    box-shadow: -8px 10px 20px 9px #00000078;
+
+
+}
+
+/*--======== four hover after ===========-------*/
+.four::after {
+    content: "Video Editing  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia repudiandae temporibus, odio sit reiciendis facilis cupiditate id placeat debitis. Totam.";
+    position: absolute;
+    margin: 330px 90px 0px 970px;
+    text-align: center;
+    color: white;
+    transition: all 1.0s;
+    cursor: pointer;
+
+
+}
+/*--======== four hover after ===========-------*/
+.four:hover::after {
+    content: "Video Editing  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia repudiandae temporibus, odio sit reiciendis facilis cupiditate id placeat debitis. Totam.";
+    position: absolute;
+    margin: 330px 90px 0px 970px;
+    text-align: center;
+    color: white;
+    transition: all 1.0s;
+    cursor: pointer;
+    box-shadow: -8px 10px 20px 9px #00000078;
+
+
+}
+
+/*--======== icons ===========-------*/
+.icons {
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*--======== icons I ===========-------*/
+.icons i {
+    margin: 7px 0px 0px 0px;
+    font-size: 56px;
+    cursor: pointer;
+}
+
+/*--======== oneicon ===========-------*/
+.oneicon {
+    margin: 223px 0px 0px 119px;
+    color: white;
+}
+
+/*--======== twoicon ===========-------*/
+.twoicon {
+    margin: 223px 0px 0px 411px;
+    color: white;
+}
+
+/*--======== threeicon ===========-------*/
+.threeicon {
+    margin: 223px 0px 0px 691px;
+    color: white;
+}
+
+/*--======== fouricon ===========-------*/
+.fouricon {
+    margin: 223px 0px 0px 967px;
+    color: white;
+}
+
+/*--======== form photo style ===========-------*/
+.form-and-photo-style {
+    height: 675px;
+    width: 1263px;
+    background-color: rgb(104, 78, 43);
+    margin: 0px 0px 0px 0px;
+    /* box-shadow: inset 0px 0px 114px 0px;*/
+}
+
+/*----======== form style ===========----*/
+.form-style {
+    margin: 42px 0px 0px 46px;
+    height: 605px;
+    width: 617px;
+}
+
+/*----======== photos style ===========----*/
+
+.photos-style {
+    margin: 0px 0px 0px 0px;
+    height: 675px;
+    width: 617px;
+    border: 2px ;
+}
+
+/*----======== photos camera ===========----*/
+/*.photos-camera{
+    border: 2px solid gray;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+}
+*/
+/*----======== photos camera img ===========----*/
+.bran {
+    border: 2px solid gray;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    transition: all 1.1s ease;
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+    margin: 108px 0px 0px 98px;
+    transition: all 1.3s ease-in-out;
+
+}
+
+/*----======== photos camera img hover ===========----*/
+/*.photos-camera img:hover{
+    border: 2px solid gray;
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    transition: all 1.1s ease;
+    position: absolute;
+    z-index: 10;
+    zoom: unset;
+
+}
+*/
+/*----======== photos camera img hover ===========----*/
+.ph-im {
+    opacity: 0;
+    margin: 43px 0px 0px 71px;
+    height: 558px;
+    position: absolute;
+    width: 450px;
+    z-index: 2;
+    border-radius: 62px 62px 14px 14px;
+    cursor: pointer;
+    transition: all 1.3s ease-in-out;
+}
+
+/*----======== photos camera img hover ===========----*/
+.conte {
+    opacity: 0;
+    position: absolute;
+    margin: 351px 0px 0px 153px;
+    z-index: 10;
+    font-size: 35px;
+    color: #f1c26c;
+    transition: all 1.4s ease-out;
+}
+
+
+/*
+.photos-camera img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    /* object-fit: cover;
+    z-index: auto;
+    position: absolute;
+}
+.photos-camera img:hover {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    /* object-fit: cover;
+    z-index: auto;
+    position: absolute;
+}
+*/
